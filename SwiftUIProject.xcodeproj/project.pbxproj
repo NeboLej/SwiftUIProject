@@ -11,6 +11,7 @@
 		FA46FE5928AC0A39006D6338 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46FE5828AC0A39006D6338 /* ContentView.swift */; };
 		FA46FE5B28AC0A3D006D6338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA46FE5A28AC0A3D006D6338 /* Assets.xcassets */; };
 		FA46FE5E28AC0A3D006D6338 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA46FE5D28AC0A3D006D6338 /* Preview Assets.xcassets */; };
+		FA75379628AC3B7C003DEE68 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75379528AC3B7C003DEE68 /* FormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FA46FE5828AC0A39006D6338 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA46FE5A28AC0A3D006D6338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA46FE5D28AC0A3D006D6338 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA75379528AC3B7C003DEE68 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,8 @@
 		FA46FE5528AC0A39006D6338 /* SwiftUIProject */ = {
 			isa = PBXGroup;
 			children = (
+				FA75379728AC3B8E003DEE68 /* Views */,
 				FA46FE5628AC0A39006D6338 /* SwiftUIProjectApp.swift */,
-				FA46FE5828AC0A39006D6338 /* ContentView.swift */,
 				FA46FE5A28AC0A3D006D6338 /* Assets.xcassets */,
 				FA46FE5C28AC0A3D006D6338 /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				FA46FE5D28AC0A3D006D6338 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA75379728AC3B8E003DEE68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA46FE5828AC0A39006D6338 /* ContentView.swift */,
+				FA75379528AC3B7C003DEE68 /* FormView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA75379628AC3B7C003DEE68 /* FormView.swift in Sources */,
 				FA46FE5928AC0A39006D6338 /* ContentView.swift in Sources */,
 				FA46FE5728AC0A39006D6338 /* SwiftUIProjectApp.swift in Sources */,
 			);
