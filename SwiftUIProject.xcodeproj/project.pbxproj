@@ -15,6 +15,7 @@
 		FA75379928AD378E003DEE68 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75379828AD378E003DEE68 /* PlayerView.swift */; };
 		FA75379C28AD37E0003DEE68 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75379B28AD37E0003DEE68 /* PlayerViewModel.swift */; };
 		FA75379F28AD4562003DEE68 /* ded.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA75379E28AD4562003DEE68 /* ded.mp3 */; };
+		FA7537A128AD785A003DEE68 /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7537A028AD785A003DEE68 /* SegmentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		FA75379828AD378E003DEE68 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		FA75379B28AD37E0003DEE68 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
 		FA75379E28AD4562003DEE68 /* ded.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ded.mp3; sourceTree = "<group>"; };
+		FA7537A028AD785A003DEE68 /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				FA46FE5828AC0A39006D6338 /* ToggleView.swift */,
 				FA75379528AC3B7C003DEE68 /* FormView.swift */,
 				FA75379828AD378E003DEE68 /* PlayerView.swift */,
+				FA7537A028AD785A003DEE68 /* SegmentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				FA75379C28AD37E0003DEE68 /* PlayerViewModel.swift in Sources */,
 				FA46FE5928AC0A39006D6338 /* ToggleView.swift in Sources */,
 				FA46FE5728AC0A39006D6338 /* SwiftUIProjectApp.swift in Sources */,
+				FA7537A128AD785A003DEE68 /* SegmentView.swift in Sources */,
 				FA75379928AD378E003DEE68 /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,8 +13,13 @@ struct PlayerView: View {
     
     var body: some View {
         VStack {
-            Rectangle().padding().foregroundColor(Color.pink).frame(width: 380, height: 380)
-            
+            ZStack {
+                Rectangle().padding().foregroundColor(Color.pink).frame(width: 380, height: 380)
+                Text("DED")
+                    .font(.largeTitle)
+                    .fontWeight(.light)
+                    .foregroundColor(Color.white)   
+            }
             Slider(value: Binding(get: {
                 self.sliderValue
             }, set: { newValue in

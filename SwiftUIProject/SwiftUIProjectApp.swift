@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            PlayerView()
+            SegmentView()
         }
     }
 }
@@ -19,3 +19,4 @@ struct SwiftUIProjectApp: App {
 //PlayerView - Slider, music player,
 //FormView - Form ( lazy menu ), picker
 //ToggleView - Toggle, animation view
+//SegmentView - segment ( picker ), animation
