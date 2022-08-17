@@ -11,7 +11,11 @@ import SwiftUI
 struct SwiftUIProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            FormView()
+            PlayerView()
         }
     }
 }
+
+//PlayerView - Slider, music player,
+//FormView - Form ( lazy menu ), picker
+//ToggleView - Toggle, animation view

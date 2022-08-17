@@ -8,19 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		FA46FE5728AC0A39006D6338 /* SwiftUIProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46FE5628AC0A39006D6338 /* SwiftUIProjectApp.swift */; };
-		FA46FE5928AC0A39006D6338 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46FE5828AC0A39006D6338 /* ContentView.swift */; };
+		FA46FE5928AC0A39006D6338 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46FE5828AC0A39006D6338 /* ToggleView.swift */; };
 		FA46FE5B28AC0A3D006D6338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA46FE5A28AC0A3D006D6338 /* Assets.xcassets */; };
 		FA46FE5E28AC0A3D006D6338 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA46FE5D28AC0A3D006D6338 /* Preview Assets.xcassets */; };
 		FA75379628AC3B7C003DEE68 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75379528AC3B7C003DEE68 /* FormView.swift */; };
+		FA75379928AD378E003DEE68 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75379828AD378E003DEE68 /* PlayerView.swift */; };
+		FA75379C28AD37E0003DEE68 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75379B28AD37E0003DEE68 /* PlayerViewModel.swift */; };
+		FA75379F28AD4562003DEE68 /* ded.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA75379E28AD4562003DEE68 /* ded.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA46FE5328AC0A39006D6338 /* SwiftUIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA46FE5628AC0A39006D6338 /* SwiftUIProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIProjectApp.swift; sourceTree = "<group>"; };
-		FA46FE5828AC0A39006D6338 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA46FE5828AC0A39006D6338 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		FA46FE5A28AC0A3D006D6338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA46FE5D28AC0A3D006D6338 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA75379528AC3B7C003DEE68 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		FA75379828AD378E003DEE68 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		FA75379B28AD37E0003DEE68 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		FA75379E28AD4562003DEE68 /* ded.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ded.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,8 @@
 		FA46FE5528AC0A39006D6338 /* SwiftUIProject */ = {
 			isa = PBXGroup;
 			children = (
+				FA75379D28AD4514003DEE68 /* Resources */,
+				FA75379A28AD37CB003DEE68 /* ViewModels */,
 				FA75379728AC3B8E003DEE68 /* Views */,
 				FA46FE5628AC0A39006D6338 /* SwiftUIProjectApp.swift */,
 				FA46FE5A28AC0A3D006D6338 /* Assets.xcassets */,
@@ -72,10 +80,27 @@
 		FA75379728AC3B8E003DEE68 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FA46FE5828AC0A39006D6338 /* ContentView.swift */,
+				FA46FE5828AC0A39006D6338 /* ToggleView.swift */,
 				FA75379528AC3B7C003DEE68 /* FormView.swift */,
+				FA75379828AD378E003DEE68 /* PlayerView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		FA75379A28AD37CB003DEE68 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA75379B28AD37E0003DEE68 /* PlayerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FA75379D28AD4514003DEE68 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA75379E28AD4562003DEE68 /* ded.mp3 */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA75379F28AD4562003DEE68 /* ded.mp3 in Resources */,
 				FA46FE5E28AC0A3D006D6338 /* Preview Assets.xcassets in Resources */,
 				FA46FE5B28AC0A3D006D6338 /* Assets.xcassets in Resources */,
 			);
@@ -149,8 +175,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA75379628AC3B7C003DEE68 /* FormView.swift in Sources */,
-				FA46FE5928AC0A39006D6338 /* ContentView.swift in Sources */,
+				FA75379C28AD37E0003DEE68 /* PlayerViewModel.swift in Sources */,
+				FA46FE5928AC0A39006D6338 /* ToggleView.swift in Sources */,
 				FA46FE5728AC0A39006D6338 /* SwiftUIProjectApp.swift in Sources */,
+				FA75379928AD378E003DEE68 /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
