@@ -16,6 +16,11 @@
 		FA75379C28AD37E0003DEE68 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75379B28AD37E0003DEE68 /* PlayerViewModel.swift */; };
 		FA75379F28AD4562003DEE68 /* ded.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA75379E28AD4562003DEE68 /* ded.mp3 */; };
 		FA7537A128AD785A003DEE68 /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7537A028AD785A003DEE68 /* SegmentView.swift */; };
+		FA8C65AF28F2F720005C130A /* NavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8C65AE28F2F720005C130A /* NavigationApp.swift */; };
+		FA8C65B128F2FADE005C130A /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8C65B028F2FADE005C130A /* CartView.swift */; };
+		FA8C65B328F2FAF7005C130A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8C65B228F2FAF7005C130A /* MenuView.swift */; };
+		FA8C65B528F3037B005C130A /* MenuElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8C65B428F3037B005C130A /* MenuElementView.swift */; };
+		FA8C65B728F35AB8005C130A /* TabView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8C65B628F35AB8005C130A /* TabView1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		FA75379B28AD37E0003DEE68 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
 		FA75379E28AD4562003DEE68 /* ded.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ded.mp3; sourceTree = "<group>"; };
 		FA7537A028AD785A003DEE68 /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
+		FA8C65AE28F2F720005C130A /* NavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationApp.swift; sourceTree = "<group>"; };
+		FA8C65B028F2FADE005C130A /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		FA8C65B228F2FAF7005C130A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		FA8C65B428F3037B005C130A /* MenuElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuElementView.swift; sourceTree = "<group>"; };
+		FA8C65B628F35AB8005C130A /* TabView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +92,12 @@
 		FA75379728AC3B8E003DEE68 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FA8C65AD28F2F709005C130A /* NavigationApp */,
 				FA46FE5828AC0A39006D6338 /* ToggleView.swift */,
 				FA75379528AC3B7C003DEE68 /* FormView.swift */,
 				FA75379828AD378E003DEE68 /* PlayerView.swift */,
 				FA7537A028AD785A003DEE68 /* SegmentView.swift */,
+				FA8C65B628F35AB8005C130A /* TabView1.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -104,6 +116,17 @@
 				FA75379E28AD4562003DEE68 /* ded.mp3 */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA8C65AD28F2F709005C130A /* NavigationApp */ = {
+			isa = PBXGroup;
+			children = (
+				FA8C65AE28F2F720005C130A /* NavigationApp.swift */,
+				FA8C65B028F2FADE005C130A /* CartView.swift */,
+				FA8C65B228F2FAF7005C130A /* MenuView.swift */,
+				FA8C65B428F3037B005C130A /* MenuElementView.swift */,
+			);
+			path = NavigationApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,11 +200,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8C65B728F35AB8005C130A /* TabView1.swift in Sources */,
+				FA8C65AF28F2F720005C130A /* NavigationApp.swift in Sources */,
 				FA75379628AC3B7C003DEE68 /* FormView.swift in Sources */,
 				FA75379C28AD37E0003DEE68 /* PlayerViewModel.swift in Sources */,
 				FA46FE5928AC0A39006D6338 /* ToggleView.swift in Sources */,
+				FA8C65B328F2FAF7005C130A /* MenuView.swift in Sources */,
 				FA46FE5728AC0A39006D6338 /* SwiftUIProjectApp.swift in Sources */,
+				FA8C65B528F3037B005C130A /* MenuElementView.swift in Sources */,
 				FA7537A128AD785A003DEE68 /* SegmentView.swift in Sources */,
+				FA8C65B128F2FADE005C130A /* CartView.swift in Sources */,
 				FA75379928AD378E003DEE68 /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

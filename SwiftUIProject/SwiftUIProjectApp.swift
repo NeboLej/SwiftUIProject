@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            SegmentView()
+            TabViewApp()
         }
     }
 }
@@ -20,3 +20,5 @@ struct SwiftUIProjectApp: App {
 //FormView - Form ( lazy menu ), picker
 //ToggleView - Toggle, animation view
 //SegmentView - segment ( picker ), animation
+//NavigationApp - navigaition, EnvironmentObject, transport
+//TabViewApp - tabView, binding
