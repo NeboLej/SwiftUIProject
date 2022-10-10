@@ -11,6 +11,7 @@
 		FA46FE5928AC0A39006D6338 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46FE5828AC0A39006D6338 /* ToggleView.swift */; };
 		FA46FE5B28AC0A3D006D6338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA46FE5A28AC0A3D006D6338 /* Assets.xcassets */; };
 		FA46FE5E28AC0A3D006D6338 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA46FE5D28AC0A3D006D6338 /* Preview Assets.xcassets */; };
+		FA5971B928F4CFFE00E26BA6 /* TextFieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5971B828F4CFFE00E26BA6 /* TextFieldApp.swift */; };
 		FA75379628AC3B7C003DEE68 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75379528AC3B7C003DEE68 /* FormView.swift */; };
 		FA75379928AD378E003DEE68 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75379828AD378E003DEE68 /* PlayerView.swift */; };
 		FA75379C28AD37E0003DEE68 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75379B28AD37E0003DEE68 /* PlayerViewModel.swift */; };
@@ -29,6 +30,7 @@
 		FA46FE5828AC0A39006D6338 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		FA46FE5A28AC0A3D006D6338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA46FE5D28AC0A3D006D6338 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA5971B828F4CFFE00E26BA6 /* TextFieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldApp.swift; sourceTree = "<group>"; };
 		FA75379528AC3B7C003DEE68 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		FA75379828AD378E003DEE68 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		FA75379B28AD37E0003DEE68 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				FA75379828AD378E003DEE68 /* PlayerView.swift */,
 				FA7537A028AD785A003DEE68 /* SegmentView.swift */,
 				FA8C65B628F35AB8005C130A /* TabView1.swift */,
+				FA5971B828F4CFFE00E26BA6 /* TextFieldApp.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				FA7537A128AD785A003DEE68 /* SegmentView.swift in Sources */,
 				FA8C65B128F2FADE005C130A /* CartView.swift in Sources */,
 				FA75379928AD378E003DEE68 /* PlayerView.swift in Sources */,
+				FA5971B928F4CFFE00E26BA6 /* TextFieldApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -321,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

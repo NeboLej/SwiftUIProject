@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            TabViewApp()
+            TextFieldApp()
         }
     }
 }
@@ -22,3 +22,4 @@ struct SwiftUIProjectApp: App {
 //SegmentView - segment ( picker ), animation
 //NavigationApp - navigaition, EnvironmentObject, transport
 //TabViewApp - tabView, binding
+//TextFieldApp - TextField, ViewModifier, hideKeyboard, @FocusState
